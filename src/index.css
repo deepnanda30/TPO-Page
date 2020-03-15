@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.topnav a:hover {
+  color: #df2e21;
+  text-decoration: none;
+}
+
+.topnav a.active {
+ 
+  color: #df2e21;
+}
+
+.grid-main
+{
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.collection-item
+{
+  border: 3px solid rgb(147, 213, 201);
+  border-radius: 15px;
+  margin: 10px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+.collection-item p{
+  margin: 2px;
+  letter-spacing: 2px;
+}
+.bgw1
+{
+  background-color: white;
+  margin: 40px 5px 20px 30px;
+  border-radius: 10px !important;
+
+}
+.list
+{
+  padding-top: 10px;
+}
+.gridComp img
+{
+height: 70px;
+width: 70px;
+}
+
+.bgw
+{
+  background-color: white;
+  padding: 50px;
+  margin: 40px 30px 20px 5px;
+  border-radius: 10px !important;  
+}
+.addCompGrid
+{
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-column-gap:8px !important;
+}
+
+
+
